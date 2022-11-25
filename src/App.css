@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header { 
+    background-color: #ffb6b9;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_container{
+    max-width: 1200px;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo_container{
+    display: flex;
+    align-items: center;
+    font-family: "Segoe IU", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.logo_tipo {
+    width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar_link{
+    font-size: 20px;
+    font-family: "Segoe IU", sans-serif;
+    background-color: #fae3d9;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.carrito{
+    width: 3rem;
+    color: #4e4c4a;
+}
+
+.cartWidget{
+    display: flex;
+    align-items: center;
+}
+
+.conjunto_articulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.articulo {
+    max-width: 500px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border: 1px solid #000;
+    background-color: #bbded6;
+}
+
+.articulo_img {
+    width: 50%;
+}
+
+.articulo_content {
+    width: 50%;
+    padding: 20px;
+    font-family: "Segoe IU", sans-serif;
+    font-size: 20px;
+
+}
+
+.titulo_art{
+    font-size: x-large;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+.texto_art{
+    margin:  15px;
+    text-justify: distribute-all-lines;
+}
+
+.precio_art{
+    margin: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #61c0bf;
+    width: 100%;
+
+}
+
+.address_container{
+    color: black;
+    font-weight: bold;
+    font-family: "Segoe IU", sans-serif;
+    text-align: center
 }
