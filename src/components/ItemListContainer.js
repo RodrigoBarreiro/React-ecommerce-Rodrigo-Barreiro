@@ -18,7 +18,7 @@ export const ItemListContainer = () => {
         const task = new Promise ((resolve, reject) => {
                 setTimeout(() => {
                     resolve (Categoria ? productosFiltrados : Productos )
-                }, 500 );  
+                }, 2000 );  
             })
         task 
             .then ( (res) => { 

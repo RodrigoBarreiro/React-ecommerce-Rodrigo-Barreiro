@@ -7,7 +7,7 @@ export const Productos = [
         Descripcion: "Boba Fett cazara la atencion de quien ingrese a tu casa al punto que no querra irse sin tomarle una foto", 
         precio: 500, 
         stock : 10,
-        img: "./images/1.jpg",
+        img: "../images/1.jpg",
     },
     {
         Id: 2,
@@ -16,7 +16,7 @@ export const Productos = [
         Descripcion: "Troopers con grandes estilos realzaran tu habitacion pero cuidado con mirar a los ojos a mitico Darth Vader", 
         precio: 500, 
         stock : 15,
-        img:"./images/2.jpg",
+        img:"../images/2.jpg",
     },
     {
         Id: 3,
@@ -25,7 +25,7 @@ export const Productos = [
         Descripcion: "Maestro Yoda guiara con la fuerza la atencion de quien lo mire, seguramente no dejen de mirarlo", 
         precio: 500, 
         stock : 8,
-        img: "./images/3.jpg",
+        img: "../images/3.jpg",
     },
     {
         Id: 4,
@@ -34,7 +34,7 @@ export const Productos = [
         Descripcion: "Darth Vader guiara al lado oscuro con sus ojos no tan oscuros, pero seguro que alguien preguntara donde compraste ese cuadro", 
         precio: 500, 
         stock : 13,
-        img: "./images/4.jpg",
+        img: "../images/4.jpg",
     },
     {
         Id: 5,
@@ -43,7 +43,7 @@ export const Productos = [
         Descripcion: "El encanto de Grogu o baby Yoda, no importa como lo llamen el siempre tendra tu atencion", 
         precio: 500, 
         stock : 5,
-        img: "./images/5.jpg",
+        img: "../images/5.jpg",
     },
     {
         Id: 6,
@@ -52,7 +52,7 @@ export const Productos = [
         Descripcion: "Darth Vader en su maximo explendor te guiara al lado oscuro con solo mirarlo", 
         precio: 500, 
         stock : 3,
-        img: "./images/6.jpg",
+        img: "../images/6.jpg",
     },
     {
         Id: 7,
@@ -61,7 +61,7 @@ export const Productos = [
         Descripcion: "Boba Fett cazara la atencion de quien ingrese a tu casa al punto que no querra irse sin tomarle una foto", 
         precio: 500, 
         stock : 6,
-        img: "./images/7.jpg",
+        img: "../images/7.jpg",
     },
     {
         Id: 8,
@@ -70,7 +70,7 @@ export const Productos = [
         Descripcion: "Boba Fett cazara la atencion de quien ingrese a tu casa al punto que no querra irse sin tomarle una foto", 
         precio: 500, 
         stock : 32,
-        img: "./images/8.jpg",
+        img: "../images/8.jpg",
     },
     {
         Id: 9,
@@ -79,6 +79,6 @@ export const Productos = [
         Descripcion: "Boba Fett cazara la atencion de quien ingrese a tu casa al punto que no querra irse sin tomarle una foto", 
         precio: 500, 
         stock : 18,
-        img: "./images/9.jpg",
+        img: "../images/9.jpg",
     },
 ]

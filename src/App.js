@@ -24,15 +24,16 @@ const App = ()  => {
 
         <Route path="/category" element = { < ItemListContainer /> } />
 
-        <Route path="/ItemDetail/:Id" element ={ <ItemDetailContainer/> } />
+        <Route path="/item/:Id" element ={ <ItemDetailContainer/> } />
 
-        <Route path="/cart"  element = { <h2>ACA SE MOSTRARA EL CARRITO</h2>}/>
+        <Route path="/cart"  element = { <h2 className="iria_carrito" >ACA SE MOSTRARA EL CARRITO</h2>}/>
 
         <Route path="*" element  = { <h2 className="error_ruta">Lo siento no existe la ruta ingresada</h2> } />
 
       </Routes>
 
       < Footer />
+
       </BrowserRouter>
     </div>
   );

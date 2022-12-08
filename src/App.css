@@ -29,12 +29,10 @@ body {
     display: flex;
     align-items: center;
     font-family: "Segoe IU", sans-serif;
+    text-decoration: none;
 } 
 
 .logo_tipo {
-    /* display: flex; */
-    /* align-items: center; */
-    /* font-family: "Segoe IU", sans-serif; */
     width: 20%;
 } 
 
@@ -44,6 +42,7 @@ body {
     list-style: none;
     gap: 20px;
     align-items: center;
+    
 }
 
 .navbar_link{
@@ -53,6 +52,7 @@ body {
     border: solid;
     border-radius: 10px;
     padding: 5px;
+    text-decoration: none;
 }
 
 .navbar li a {
@@ -186,4 +186,24 @@ body {
     margin-left: 90px;
     
     
+}
+
+.articulo_detalle{
+    max-width: 550px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border: 1px solid #000;
+    background-color: #bbded6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.iria_carrito{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 90px;
 }
