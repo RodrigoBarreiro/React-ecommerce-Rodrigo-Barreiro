@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 200px;
+}
+
 .header { 
     background-color: #ffb6b9;
 }
@@ -20,11 +29,14 @@
     display: flex;
     align-items: center;
     font-family: "Segoe IU", sans-serif;
-}
+} 
 
 .logo_tipo {
+    /* display: flex; */
+    /* align-items: center; */
+    /* font-family: "Segoe IU", sans-serif; */
     width: 20%;
-}
+} 
 
 .navbar{
     font-size: 30px;
@@ -52,6 +64,10 @@
     color: #4e4c4a;
 }
 
+.valor_carrito {
+    text-decoration: none;
+}
+
 .cartWidget{
     display: flex;
     align-items: center;
@@ -63,7 +79,7 @@
     justify-content: space-around;
 }
 .articulo {
-    max-width: 500px;
+    max-width: 550px;
     display: flex;
     gap: 20px;
     border-radius: 10px;
@@ -75,42 +91,99 @@
 
 .articulo_img {
     width: 50%;
-}
+} 
 
 .articulo_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 50%;
     padding: 20px;
     font-family: "Segoe IU", sans-serif;
     font-size: 20px;
-
 }
 
 .titulo_art{
     font-size: x-large;
     text-decoration: underline;
-    margin: 15px;
 }
 
 .texto_art{
-    margin:  15px;
     text-justify: distribute-all-lines;
 }
 
 .precio_art{
-    margin: 15px;
     font-size: xx-large;
     font-weight: bold;
+    text-align: center;
+}
+
+.mas_art{
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.stock {
+    opacity: 0.5;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
 }
 
 .footer {
     background-color: #61c0bf;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
 
-}
 
 .address_container{
     color: black;
     font-weight: bold;
     font-family: "Segoe IU", sans-serif;
-    text-align: center
+    text-align: center;
+    padding: 10px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_sumar {
+    padding: 5px;
+    font-size: 20px;
+    background-color:#fae3d9;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn_restar {
+    padding: 5px;
+    font-size: 20px ;
+    background-color:#fae3d9;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.btn_agregar_carrito {
+    padding: 5px;
+    font-size: 15px;
+    background-color:#fae3d9;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.error_ruta{
+    
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 90px;
+    
+    
 }
