@@ -207,3 +207,49 @@ body {
     margin-top: 250px;
     margin-left: 90px;
 }
+
+
+.contenedor_formulario{
+    width: 50%;
+    height: 200px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_carrito {
+    max-width: 550px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border: 1px solid #000;
+    background-color: #bbded6;
+}
+
+.imagen_carrito{
+    width: 20%;
+}
+
+.carrito_contenido {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+    font-family: "Segoe IU", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
