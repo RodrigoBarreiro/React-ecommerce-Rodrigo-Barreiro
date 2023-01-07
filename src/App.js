@@ -19,7 +19,7 @@ const App = ()  => {
             <Route path="/" element = { < ItemListContainer /> } />
             <Route path="/category/:Categoria" element = { < ItemListContainer /> } />
             <Route path="/category" element = { < ItemListContainer /> } />
-            <Route path="/item/:Id" element ={ <ItemDetailContainer/> } />
+            <Route path="/item/:id" element ={ <ItemDetailContainer/> } />
             <Route path="/cart"  element = { < Cart/>}/>
             <Route path="/checkout"  element = { <Form/> }/>
             <Route path="*" element  = { <h2 className="error_ruta">Lo siento no existe la ruta ingresada</h2> } />

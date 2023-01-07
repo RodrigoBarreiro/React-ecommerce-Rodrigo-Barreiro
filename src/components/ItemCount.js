@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export const ItemCount = ({ stock, initial = 1 , onAdd }) => {
 const [counter, setCounter] = useState(initial)
+
+    useEffect (() => {
+        setCounter (initial)
+    } ,[initial] )
 
     const sumar = () => {
     if (counter < stock) {
@@ -11,12 +15,10 @@ const [counter, setCounter] = useState(initial)
     }
 
     const restar = () => {
-        if (counter > initial) {
+        if (counter > 1) {
             return setCounter(counter - 1)
         }
     }
-
-    
 
     return (
         <div className="counter">

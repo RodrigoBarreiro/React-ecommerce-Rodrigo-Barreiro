@@ -8,7 +8,7 @@ export const NavBar = () => {
             <div className = "header_container"> 
                 <div>
                     <Link to= "/" className="logo_container">
-                        <img className="logo_tipo" src="../images/logoTipo2.png" alt="logo"></img>
+                        <img className="logo_tipo" src="https://res.cloudinary.com/dntew63nw/image/upload/v1671572214/logoTipo2_xjuhgb.png" alt="logo"></img>
                         <h1>Abstract</h1>
                     </Link>
                 </div>
