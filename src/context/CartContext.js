@@ -6,7 +6,10 @@ export const CartContextProvider = ( {children} ) => {
     const [cart, setCart] = useState ([])
 
     const addToCart = (element) => {
-        if (isInCart(element) ){
+        if (element.quantity === 0) {
+            let newArray = cart.filter(product => (product.id !== element.id ))
+            setCart(newArray)
+        }else if (isInCart(element) ){
             let newArray = cart.map (( product ) => {
                 if (product.id === element.id){
                     let newProduct = {

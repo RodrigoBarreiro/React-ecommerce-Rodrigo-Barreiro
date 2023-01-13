@@ -382,3 +382,11 @@ body {
     border-style: solid;
     border-radius:35px;
 }
+.contenedor_datos h2 {
+    font-size: 15px;
+    color: #7F669D;
+    text-decoration: underline;
+}
+.detalle_item{
+    text-decoration: underline;
+}

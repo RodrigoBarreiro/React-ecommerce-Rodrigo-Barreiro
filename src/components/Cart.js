@@ -41,8 +41,6 @@ export const Cart = () => {
         </div>
     }
 
-
-
 return (
     <div className="container_compra">
         <div className="container_carrito">

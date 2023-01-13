@@ -11,14 +11,14 @@ export const Orders = ({order, orderId}) => {
                 <h2>Abstract</h2>
             </div>
             <div className="contenedor_datos">
-                <h2>tu orden de compra es: {orderId} </h2>
+                <h2>Tu orden de compra es: {orderId} </h2>
                 <h4>Compra de: {order?.buyer?.name} </h4>
                 <h4>Apellido: {order?.buyer?.lastName} </h4>
                 <h4>Telefono de contacto: {order?.buyer?.phoneNumber} </h4>
                 <h4>Email: {order?.buyer?.email} </h4>
                 <h4>Fecha de la compra: {order?.date?.toDate().toString()}</h4>
-                <h4>Items {order?.items?.map(item => (
-                    <p>{item.Nombre} x {item.quantity}</p>
+                <h4 className="detalle_item">Items: {order?.items?.map((item, i) => (
+                    <p key={i}>{item.Nombre} x {item.quantity}</p>
                 ))} </h4>
                 <h4>Total: {order?.total} </h4>
             </div>
