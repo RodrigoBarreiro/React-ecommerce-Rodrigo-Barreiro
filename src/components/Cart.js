@@ -33,8 +33,6 @@ export const Cart = () => {
         }
     }, [orderId] )
 
-    console.log (order)
-
     if (orderId){
         return <div>
             <Orders order = { order} orderId = {orderId}/>
