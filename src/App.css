@@ -180,12 +180,9 @@ body {
 }
 
 .error_ruta{
-    
     text-align: center;
     margin-top: 250px;
     margin-left: 90px;
-    
-    
 }
 
 .articulo_detalle{
@@ -202,26 +199,18 @@ body {
     margin-top: 100px;
 }
 
-.iria_carrito{
-    text-align: center;
-    margin-top: 250px;
-    margin-left: 90px;
-}
-
 
 .contenedor_formulario{
-    width: 50%;
-    height: 200px;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
     border-color: #000;
     border-width: 5px;
     border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 250px;
-    margin-bottom: 250px;
-}
+} 
 
 .formulario {
     display: flex;
@@ -329,6 +318,66 @@ body {
     padding-right:10px;
     background-color:#ffb6b9;
     border-color: #7a7474;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+}
+
+.btn_formulario{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color:#ffb6b9;
+    border-color: #7a7474;
+    border-radius:35px;
+}
+
+.contenedor_factura {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border-color: #000000;
+    border-style: double;
+    border-width: 3px;
+    padding: 10px;
+}
+
+.contendor_logo{
+    border-color: #ffb6b9;
+    border-style: double;
+    width: 20%;
+    text-align: center;
+    margin-right: 480px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.logo_factura{
+    width: 80%;
+}
+
+.contenedor_datos{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    border-color: #61c0bf;
+    border-style: double;
+    border-width: 3px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.btn_factura{
+    margin-left: 300px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#bbded6;
+    border-color: #000000;
     border-width: 3px;
     border-style: solid;
     border-radius:35px;

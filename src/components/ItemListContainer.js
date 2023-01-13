@@ -22,20 +22,6 @@ export const ItemListContainer = () => {
 
         setIsLoading(true)
 
-        /* const productosFiltrados = Productos.filter  (
-            (productos) => productos.Categoria === Categoria) */
-
-        /* const task = new Promise ((resolve, reject) => {
-                setTimeout(() => {
-                    resolve (Categoria ? productosFiltrados : Productos )
-                }, 500 );  
-            })
-        task 
-            .then ( (res) => { 
-                setItems (res) } )
-            .catch ( (err) => { 
-                console.log ("Se rechazo") } ) */
-
         const itemCollection = collection( db, "products")
 
         if (Categoria) {

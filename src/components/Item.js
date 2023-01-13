@@ -12,7 +12,6 @@ export const Item = ({element}) => {
                 <p className="precio_art"> ${element.precio}</p>
                 <Link to= {`/item/${element.id}`}className="mas_art">Ver mas</Link>
                 <p className="stock">Stock Disponible {element.stock}</p>
-                {/* <ItemCount initial={1} stock= {element.stock}  /> */}
             </div>
         </div> 
     )

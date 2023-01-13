@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { Form } from "./components/Form";
 import { Cart } from "./components/Cart";
 import { CartContextProvider } from "./context/CartContext";
+import { Orders } from "./components/Orders";
 
 const App = ()  => {
 
@@ -21,7 +22,7 @@ const App = ()  => {
             <Route path="/category" element = { < ItemListContainer /> } />
             <Route path="/item/:id" element ={ <ItemDetailContainer/> } />
             <Route path="/cart"  element = { < Cart/>}/>
-            <Route path="/checkout"  element = { <Form/> }/>
+            <Route path="/checkout"  element = { <Orders/> }/>
             <Route path="*" element  = { <h2 className="error_ruta">Lo siento no existe la ruta ingresada</h2> } />
           </Routes>
           <Footer />

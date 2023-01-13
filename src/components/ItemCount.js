@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 
-export const ItemCount = ({ stock, initial = 1 , onAdd }) => {
+export const ItemCount = ({ stock, initial = 0 , onAdd }) => {
 const [counter, setCounter] = useState(initial)
 
     useEffect (() => {
@@ -29,92 +29,3 @@ const [counter, setCounter] = useState(initial)
         </div>
         )
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-export const ItemCount = () => {
-    const [ counter , setCounter] = useState = (0)
-    const suma = () => {
-        return setCounter (counter + 1);
-    };
-    const resta = () => {
-        if ( counter === 0){ 
-            return counter;
-        } else {
-            return setCounter ( counter - 1);
-        }
-    };
-    return (
-        <div>
-            <button onClick={suma}>+</button>
-            <p>{counter}</p>
-            <button onClick={resta}>-</button>
-            <button>Añadir Al Carrito</button>
-        </div>
-    )
-}  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* export const ItemCount = () => {
-    const [contador, setContador] = useState = (0);
-    const suma = () => {
-        return setContador (contador + 1);
-    };
-    const resta = () => {
-        if (contador === 0){
-            return contador;
-        } else {
-            return setContador (contador - 1);
-        }
-    };
-    return (
-        <div>
-            <button onClick={suma}>+</button>
-            <p>{contador}</p>
-            <button onClick={resta}>-</button>
-            <button>Añadir Al Carrito</button>
-        </div>
-    )
-} */
